@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Home Page</title>
+        
+</head>
+<body>
+ <header>
+  <div class="logo">
+  <img src="1.png" alt="logo"></div>
+<h3> Welcome To City University</h3>
+</header>
+<ul>                                                                                 
+					<div class="navbar">
+						<a href="#">About</a>
+            <a href="#">Campus</a>
+						<div class="dropdown">
+						  <button class="dropbtn">Academics
+							<i class="fa fa-caret-down"></i>
+						  </button>
+						  <div class="dropdown-content">
+							<a href="#">CSE</a>
+							<a href="#">EEE</a>
+							<a href="#">Civil</a>
+							<a href="#">Textile</a>
+							<a href="#">BBA</a>
+							<a href="#">MBA</a>
+						  </div>
+						</div>
+						<a href="#">Contact Us</a>
+						<div class="container2"><input type="text" placeholder="Search..">
+						<span class="fa fa-search"> </span>
+					  </div>
+					</div>
+					  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </div>
+<section>
+  <nav>
+    <form action="Registration.html" class="container">
+      <h1>Registration Form</h1>
+      <!--First name-->
+      <div class="box">
+      
+        <label for="Full Name" class="fl fontLabel"> Full Name: </label>
+        <div class="new iconBox">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="fr">
+            <input type="text" name="Full Name" placeholder="Full Name"
+            class="textBox" autofocus="on" required>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <!--First name-->
+
+      <!--User name-->
+      <div class="box">
+        <label for="username" class="fl fontLabel">User Name: </label>
+        <div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
+        <div class="fr">
+        <input type="text" name="usertName" placeholder="User Name"
+        class="textBox" autofocus="on" required></div>
+        <div class="clr"></div>
+      </div>
+      <!--User name-->
+      <div class="box">
+        <label for="city" class="fl fontLabel">City:</label>
+<select id="city" name="city" style="height: 36px;margin-top:4.99px; width: 220px;">
+  <option value=>-----Select-----</option>
+  <option value="volvo">Dhaka</option>
+  <option value="saab">Rajshahi</option>
+  <option value="fiat">Khulna</option>
+  <option value="audi">Barishal</option>
+  <option value="audi">Maymenshing</option>
+  <option value="audi">chittagong</option>
+  <option value="audi">Sylhet</option>
+  <option value="audi">Rangpur</option>
+</select>
+        <div class="fl iconBox"><i class="fa fa-globe" aria-hidden="
+          
+          rue"></i></div>
+        <div class="fr">
+        
+      
+          <!---Roll no.------>
+      <div class="box">
+              <label for="Phone" class="fl fontLabel"> Mobile : </label>
+                    <div class="fl iconBox"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+                    <div class="fr">
+                            <input type="text"name="Mobile"maxlength="11"  placeholder="Mobile Number" class="textBox">
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                <!--Roll No.---->
+
+
+      <!---Email ID---->
+      <div class="box">
+        <label for="email" class="fl fontLabel"> Email ID: </label>
+        <div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="fr">
+            <input type="email" required name="email" placeholder="Email Id" class="textBox">
+        </div>
+        <div class="clr"></div>
+      </div>
+      <!--Email ID----->
+
+
+      <!---Password------>
+      <div class="box">
+        <label for="password" class="fl fontLabel"> Password:</label>
+        <div class="fl iconBox"><i class="fa fa-lock" aria-hidden="true"></i></div>
+        <div class="fr">
+            <input type="Password" required name="password" placeholder="Password" class="textBox">
+        </div>
+        <div class="clr"></div>
+      </div>
+   
+
+          <!---textarea------>
+      <div class="box">
+              <label for="textarea" class="fl fontLabel"></label>
+              <textarea name="message "style="height:80px; width:255px;margin-left: 80px;">  Tell us something yourself..
+                </textarea>
+                    
+                    <div class="clr"></div>
+                </div>
+              
+
+      <!---Gender----->
+      <div class="box radio">
+        <label for="gender" class="f1 fontLabel"> Gender: </label>
+          <input type="radio" name="Gender" value="Male" required> Male &nbsp; &nbsp; &nbsp; &nbsp;
+          <input type="radio" name="Gender" value="Female" required> Female
+      </div>
+      <!---Gender--->
+
+
+      <!--Terms and Conditions------>
+      <div class="box terms">
+          <input type="checkbox" name="Terms" required> &nbsp; I accept the terms and conditions
+      </div>
+      <!--Terms and Conditions------>
+
+
+
+      <!---Submit Button------>
+          <input type="Submit" name="Submit" class="submit" value="SUBMIT">
+      </div>
+      <!---Submit Button----->
+    </form>
+  </nav>
+ 
+</section>
+
+<footer>
+  <p>Footer </br>
+  Md.Mukul Hossian</br>
+ID:2035502011, Batch: 55th , Dept:CSE</p>
+</footer>
+
+  </div>
+</body>
+</html>
